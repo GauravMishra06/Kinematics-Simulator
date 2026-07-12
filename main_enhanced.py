@@ -46,7 +46,7 @@ st.markdown('<p class="subtitle">Interactive Physics Simulation with Real-time V
 
 # Sidebar configuration
 with st.sidebar:
-    st.image("/Users/gauravmishra/Kinematics Simulator/logo.png", use_container_width=True)
+    st.image("logo.png", use_container_width=True)
     st.markdown("## ⚙️ Simulation Settings")
     
     mode = st.radio("**Simulation Mode:**", ("1D Kinematics", "2D Kinematics"), horizontal=False)
