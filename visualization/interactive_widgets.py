@@ -12,21 +12,21 @@ class InteractiveWidgets:
         """
         if mode == '1d':
             presets = {
-                'Free Fall': {'x0': 100, 'v0': 0, 'a': -9.8},
-                'Constant Velocity': {'x0': 0, 'v0': 10, 'a': 0},
-                'Accelerating Car': {'x0': 0, 'v0': 0, 'a': 2.5},
-                'Braking Vehicle': {'x0': 0, 'v0': 30, 'a': -5},
-                'Oscillation': {'x0': 0, 'v0': 10, 'a': -2},
+                'Free Fall': {'x0': 100.0, 'v0': 0.0, 'a': -9.8},
+                'Constant Velocity': {'x0': 0.0, 'v0': 10.0, 'a': 0.0},
+                'Accelerating Car': {'x0': 0.0, 'v0': 0.0, 'a': 2.5},
+                'Braking Vehicle': {'x0': 0.0, 'v0': 30.0, 'a': -5.0},
+                'Oscillation': {'x0': 0.0, 'v0': 10.0, 'a': -2.0},
                 'Custom': None
             }
         else:  # 2D
             presets = {
-                'Projectile Motion': {'x0': 0, 'y0': 0, 'vx0': 20, 'vy0': 20, 'ax': 0, 'ay': -9.8},
-                'Horizontal Launch': {'x0': 0, 'y0': 50, 'vx0': 15, 'vy0': 0, 'ax': 0, 'ay': -9.8},
-                'Vertical Launch': {'x0': 0, 'y0': 0, 'vx0': 0, 'vy0': 30, 'ax': 0, 'ay': -9.8},
-                'Parabolic Path': {'x0': 0, 'y0': 0, 'vx0': 10, 'vy0': 15, 'ax': 0, 'ay': -9.8},
-                'Circular Motion (approx)': {'x0': 10, 'y0': 0, 'vx0': 0, 'vy0': 5, 'ax': -2, 'ay': 0},
-                'Wind Effect': {'x0': 0, 'y0': 0, 'vx0': 15, 'vy0': 20, 'ax': 2, 'ay': -9.8},
+                'Projectile Motion': {'x0': 0.0, 'y0': 0.0, 'vx0': 20.0, 'vy0': 20.0, 'ax': 0.0, 'ay': -9.8},
+                'Horizontal Launch': {'x0': 0.0, 'y0': 50.0, 'vx0': 15.0, 'vy0': 0.0, 'ax': 0.0, 'ay': -9.8},
+                'Vertical Launch': {'x0': 0.0, 'y0': 0.0, 'vx0': 0.0, 'vy0': 30.0, 'ax': 0.0, 'ay': -9.8},
+                'Parabolic Path': {'x0': 0.0, 'y0': 0.0, 'vx0': 10.0, 'vy0': 15.0, 'ax': 0.0, 'ay': -9.8},
+                'Circular Motion (approx)': {'x0': 10.0, 'y0': 0.0, 'vx0': 0.0, 'vy0': 5.0, 'ax': -2.0, 'ay': 0.0},
+                'Wind Effect': {'x0': 0.0, 'y0': 0.0, 'vx0': 15.0, 'vy0': 20.0, 'ax': 2.0, 'ay': -9.8},
                 'Custom': None
             }
         
